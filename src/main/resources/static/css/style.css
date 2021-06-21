@@ -1,0 +1,150 @@
+@charset "ISO-8859-1";
+.container{
+    background-color: rgb(63, 62, 62);
+    width:1100px;
+    padding: 0px;
+}
+.dashhead{
+	height: 50px;
+	color: black;
+	background-color: white;
+    width: 1100px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px;
+}
+
+a:hover{
+	color: blue;
+}
+
+.headleft{
+    display: flex;
+    justify-content: space-around;
+}
+.headleft img{
+	height:40px;
+}
+
+.headright{
+    font-size: large;
+    display: flex;
+
+}
+.dashbody{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    padding-top: 50px;
+}
+.navsection{
+    width: 200px;
+    background-image: linear-gradient(to left, rgb(124, 121, 121) ,  rgb(63, 62, 62));
+    min-height:5000px;
+    display: inline-block;
+    border-left: 15px solid rgb(63, 62, 62);
+
+}
+
+.userinfo{
+	display: flex;
+	color:white;
+}
+.userinfo p{
+	padding-top:20px;
+	font-size: large;
+}
+
+.userinfo img{
+	width:50px;
+	border:2px solid white;
+	margin: 5px 10px;
+}
+.useroption{
+	margin-top:10px;
+	color: white;
+	height: 40px;
+	padding: 8px 5px;
+}
+.useroption a{
+	color:white;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.active{
+	background-image: linear-gradient(to right, rgb(124, 121, 121) ,  rgb(63, 62, 62));
+    color: white;
+}
+
+.taskheader{
+    width: auto;
+    display: inline-block;
+    height: 50px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.taskheading{
+	color: white;
+    height: 50px;
+    width: 250;
+}
+
+.taskblock{
+    /* background-color: rgb(110, 105, 105); */
+    min-height: 5000px;
+    width: 250px;
+    display: inline-block;
+    justify-content: space between;
+    margin: 0px 5px;
+    padding:5px;
+}
+.taskbox, .newbox{
+    display: inline-block;
+    width: 240px;
+    margin: 3px 0px;
+    height:40px;
+    background-color:rgb(135, 135, 135);
+    border-radius: 3px;
+    padding:3px;
+    overflow: hidden;
+}
+#para{
+    cursor: pointer;
+    color: black;
+    background-color:  rgba(300, 296, 290) !important;
+    height: 35px;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+p{
+    margin-bottom: 0px;
+}
+.hold{
+    border: solid  rgba(248, 246, 246, 0.808) 4px;
+
+}
+
+.hovered{
+background-color: white;
+border-style: dashed;
+}
+
+.invisible{
+    display: none;
+}
+
+.extLinks{
+    background-image: linear-gradient(to right, rgb(124, 121, 121) ,  rgb(63, 62, 62));
+    width: 70px;
+    min-height: 5000px;
+    padding: 18px;
+
+
+}
